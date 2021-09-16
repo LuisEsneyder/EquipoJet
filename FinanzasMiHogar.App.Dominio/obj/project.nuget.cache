@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QrJD/2zERuEIH+WAwuD8bPYEEiNeTRKszEv0tMmmOTnMfoXjS5qJjBuES/pmZzAoXdGzjcyV5bMfLJSZc4V0Cg==",
+  "success": true,
+  "projectFilePath": "C:\\Finanzasmihogar\\FinanzasMiHogar.App\\FinanzasMiHogar.App.Dominio\\FinanzasMiHogar.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Exneider\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Exneider\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
