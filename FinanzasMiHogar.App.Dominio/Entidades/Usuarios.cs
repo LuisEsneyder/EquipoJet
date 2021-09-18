@@ -7,6 +7,7 @@ namespace FinanzasMiHogar.App.Dominio
     public class Usuarios
     {
         //Atributos
+        public int Id {get; set;}
         public string nombreUsuario {get; set;}
         public string correoElectronico {get; set;}
         public Gastos gasto {get; set;}
