@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using FinanzasMiHogar.App.Dominio;
-namespace FinananzasMiHogar.App.Persistencia
+namespace FinanzasMiHogar.App.Persistencia
 {
     public class AppContext : DbContext
     {
