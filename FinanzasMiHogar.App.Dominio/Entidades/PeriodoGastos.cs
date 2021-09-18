@@ -1,5 +1,4 @@
-using system;
-namespace FinananzasMiHogar.App.Dominio
+namespace  FinanzasMiHogar.App.Dominio
 {
     /// <summary>
     /// Lista de Periodos para los gastos

@@ -1,5 +1,5 @@
-using system;
-namespace FinananzasMiHogar.App.Dominio
+using System;
+namespace FinanzasMiHogar.App.Dominio
 {
     /// <summary> Class <c>Usuarios</c>
     /// Modela a los usuarios en el sistema

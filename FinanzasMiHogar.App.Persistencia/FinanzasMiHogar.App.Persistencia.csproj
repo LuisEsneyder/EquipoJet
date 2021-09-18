@@ -17,4 +17,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FinanzasMiHogar.App.Dominio\FinanzasMiHogar.App.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>
