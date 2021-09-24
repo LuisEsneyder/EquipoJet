@@ -25,6 +25,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Finanzasmihogar\\FinanzasMiHogar.App\\FinanzasMiHogar.App.Dominio\\FinanzasMiHogar.App.Dominio.csproj": {
+                "projectPath": "C:\\Finanzasmihogar\\FinanzasMiHogar.App\\FinanzasMiHogar.App.Dominio\\FinanzasMiHogar.App.Dominio.csproj"
+              },
               "C:\\Finanzasmihogar\\FinanzasMiHogar.App\\FinanzasMiHogar.App.Persistencia\\FinanzasMiHogar.App.Persistencia.csproj": {
                 "projectPath": "C:\\Finanzasmihogar\\FinanzasMiHogar.App\\FinanzasMiHogar.App.Persistencia\\FinanzasMiHogar.App.Persistencia.csproj"
               }

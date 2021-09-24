@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "FinanzasMiHogar.App.Consola/1.0.0": {
         "dependencies": {
+          "FinanzasMiHogar.App.Dominio": "1.0.0",
           "FinanzasMiHogar.App.Persistencia": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.0"
         },
