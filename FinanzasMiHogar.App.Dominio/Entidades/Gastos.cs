@@ -11,7 +11,7 @@ namespace FinanzasMiHogar.App.Dominio
         public string nombreGastos {get; set;}
         public int montoDinero {get; set;}
         public string fechaPago {get; set;}
-        public TipoGasto tiposGastos {set; get;}
+        public TipoGasto TipoGasto {set; get;}
         public PeriodoGastos periodoGastos {get; set;}
     }
 }

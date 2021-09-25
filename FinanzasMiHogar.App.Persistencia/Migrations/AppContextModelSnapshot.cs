@@ -26,6 +26,9 @@ namespace FinanzasMiHogar.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<int>("TipoGasto")
+                        .HasColumnType("int");
+
                     b.Property<string>("fechaPago")
                         .HasColumnType("nvarchar(max)");
 
@@ -38,12 +41,9 @@ namespace FinanzasMiHogar.App.Persistencia.Migrations
                     b.Property<int>("periodoGastos")
                         .HasColumnType("int");
 
-                    b.Property<int>("tiposGastos")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.ToTable("Gasto");
+                    b.ToTable("gasto");
                 });
 
             modelBuilder.Entity("FinanzasMiHogar.App.Dominio.Usuarios", b =>

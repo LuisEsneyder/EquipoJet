@@ -15,14 +15,15 @@ namespace FinanzasMiHogar.App.Consola
             AddGasto();
         }
         public static void AddGasto()
-        {
+        {   
+            
             var Gastoss = new Gastos
             {
                 
                 nombreGastos = "Prueba",
                 montoDinero = 100000,
-                fechaPago="Prueba2",
-                
+                fechaPago="Prueba5",
+                TipoGasto = TipoGasto.suscripcion
             };
             _repoGasto.AddUGastos(Gastoss);
         }
