@@ -1,4 +1,3 @@
-C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Persistencia\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Persistencia.csprojAssemblyReference.cache
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Persistencia\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Persistencia.AssemblyInfoInputs.cache
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Persistencia\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Persistencia.AssemblyInfo.cs
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Persistencia\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Persistencia.csproj.CoreCompileInputs.cache
@@ -10,3 +9,5 @@ C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Persistencia\bin\Debu
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Persistencia\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Persistencia.csproj.CopyComplete
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Persistencia\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Persistencia.dll
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Persistencia\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Persistencia.pdb
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Persistencia\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Persistencia.csproj.AssemblyReference.cache
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Persistencia\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig

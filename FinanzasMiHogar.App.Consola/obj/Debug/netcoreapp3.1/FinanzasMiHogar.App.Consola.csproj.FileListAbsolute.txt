@@ -58,7 +58,6 @@ C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\bin\Debug\net
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\bin\Debug\netcoreapp3.1\FinanzasMiHogar.App.Persistencia.dll
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\bin\Debug\netcoreapp3.1\FinanzasMiHogar.App.Persistencia.pdb
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\bin\Debug\netcoreapp3.1\FinanzasMiHogar.App.Dominio.pdb
-C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\obj\Debug\netcoreapp3.1\FinanzasMiHogar.App.Consola.csprojAssemblyReference.cache
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\obj\Debug\netcoreapp3.1\FinanzasMiHogar.App.Consola.AssemblyInfoInputs.cache
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\obj\Debug\netcoreapp3.1\FinanzasMiHogar.App.Consola.AssemblyInfo.cs
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\obj\Debug\netcoreapp3.1\FinanzasMiHogar.App.Consola.csproj.CoreCompileInputs.cache
@@ -66,3 +65,5 @@ C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\obj\Debug\net
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\obj\Debug\netcoreapp3.1\FinanzasMiHogar.App.Consola.dll
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\obj\Debug\netcoreapp3.1\FinanzasMiHogar.App.Consola.pdb
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\obj\Debug\netcoreapp3.1\FinanzasMiHogar.App.Consola.genruntimeconfig.cache
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\obj\Debug\netcoreapp3.1\FinanzasMiHogar.App.Consola.csproj.AssemblyReference.cache
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Consola\obj\Debug\netcoreapp3.1\FinanzasMiHogar.App.Consola.GeneratedMSBuildEditorConfig.editorconfig

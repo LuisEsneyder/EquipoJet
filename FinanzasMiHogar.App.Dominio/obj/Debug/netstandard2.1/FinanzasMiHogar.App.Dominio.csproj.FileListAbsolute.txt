@@ -1,0 +1,10 @@
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Dominio\bin\Debug\netstandard2.1\FinanzasMiHogar.App.Dominio.deps.json
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Dominio\bin\Debug\netstandard2.1\FinanzasMiHogar.App.Dominio.dll
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Dominio\bin\Debug\netstandard2.1\FinanzasMiHogar.App.Dominio.pdb
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Dominio\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Dominio.csproj.AssemblyReference.cache
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Dominio\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Dominio\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Dominio.AssemblyInfoInputs.cache
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Dominio\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Dominio.AssemblyInfo.cs
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Dominio\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Dominio\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Dominio.dll
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.Dominio\obj\Debug\netstandard2.1\FinanzasMiHogar.App.Dominio.pdb

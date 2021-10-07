@@ -11,15 +11,15 @@ namespace FinanzasMiHogar.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            AddUsuario();
-            AddGasto();
+            //AddUsuario();
+            //AddGasto();
+            BuscarUsuario(1);
         }
         public static void AddGasto()
         {   
             
             var Gastoss = new Gastos
             {
-                
                 nombreGastos = "Prueba",
                 montoDinero = 100000,
                 fechaPago="Prueba5",
@@ -37,6 +37,11 @@ namespace FinanzasMiHogar.App.Consola
                 topeGastos=100000
             };
             _repoUsuario.AddUsuario(usuario);
+        }
+        public static void BuscarUsuario(int idusuario)
+        {
+            var usuario = _repoUsuario.GetUsuarios(idusuario);
+            Console.WriteLine(usuario.nombreUsuario);
         }
     }
 }
