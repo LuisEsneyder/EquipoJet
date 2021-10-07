@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using FinanzasMiHogar.App.Dominio;
 namespace FinanzasMiHogar.App.Persistencia
 {
-    public class MyAppContext : DbContext
+    public class AppContext : DbContext
     {
         public DbSet<Usuarios> usuario {get; private set;}
         public DbSet<Gastos> gasto {get; private set;}

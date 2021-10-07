@@ -9,12 +9,12 @@ namespace FinanzasMiHogar.App.Persistencia
         ///<summary>
         /// Referencia al contexto de Paciente 
         ///</summary>
-        private readonly MyAppContext _appContext;
+        private readonly AppContext _appContext;
         /// <summary>
         /// Metodo utiliza inyeccion de dependencias para indicar el contexto a utilizar
         /// </summary>
         /// <param name="MyappContext"></param>//
-        public RepoGastos(MyAppContext appContext)
+        public RepoGastos(AppContext appContext)
         {
             _appContext = appContext;
         }
