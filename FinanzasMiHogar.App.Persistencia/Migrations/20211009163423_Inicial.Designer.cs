@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FinanzasMiHogar.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211002191435_Inicial4")]
-    partial class Inicial4
+    [Migration("20211009163423_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -54,6 +54,9 @@ namespace FinanzasMiHogar.App.Persistencia.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
+
+                    b.Property<string>("contraseña")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("correoElectronico")
                         .HasColumnType("nvarchar(max)");

@@ -26,7 +26,7 @@ namespace FinanzasMiHogar.App.FrontEnd
         {
             services.AddRazorPages();
             //services.AddScoped<Persistencia.IRepositorioUsuario,RepositorioUsuario>();
-            services.AddSingleton<IRepositorioUsuario, RepositorioUsuario>();
+            //services.AddSingleton<IRepositorioUsuario, RepositorioUsuario>();
     
         }
 

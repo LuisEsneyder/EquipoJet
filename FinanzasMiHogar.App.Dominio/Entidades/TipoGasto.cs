@@ -6,6 +6,8 @@ namespace FinanzasMiHogar.App.Dominio
     public enum TipoGasto
     {
         suscripcion,
-        serviciosPublicos
+        serviciosPublicos,
+        vivienda,
+        Otros
     }
 }

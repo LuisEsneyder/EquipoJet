@@ -2,7 +2,7 @@
 
 namespace FinanzasMiHogar.App.Persistencia.Migrations
 {
-    public partial class Inicial4 : Migration
+    public partial class Inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -31,6 +31,7 @@ namespace FinanzasMiHogar.App.Persistencia.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     nombreUsuario = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     correoElectronico = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    contraseña = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     gastoId = table.Column<int>(type: "int", nullable: true),
                     topeGastos = table.Column<int>(type: "int", nullable: false)
                 },

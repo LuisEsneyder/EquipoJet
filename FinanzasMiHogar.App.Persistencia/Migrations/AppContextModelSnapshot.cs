@@ -53,6 +53,9 @@ namespace FinanzasMiHogar.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<string>("contraseña")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("correoElectronico")
                         .HasColumnType("nvarchar(max)");
 

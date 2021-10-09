@@ -13,7 +13,7 @@ namespace FinanzasMiHogar.App.Consola
             Console.WriteLine("Hello World!");
             //AddUsuario();
             //AddGasto();
-            BuscarUsuario(1);
+            //BuscarUsuario(1);
         }
         public static void AddGasto()
         {   
@@ -31,10 +31,10 @@ namespace FinanzasMiHogar.App.Consola
         {   
             var usuario = new Usuarios
             {
-                
                 nombreUsuario="Prueba 1",
                 correoElectronico ="@Prueba1",
-                topeGastos=100000
+                topeGastos=100000,
+                contraseña = "Luis1"
             };
             _repoUsuario.AddUsuario(usuario);
         }

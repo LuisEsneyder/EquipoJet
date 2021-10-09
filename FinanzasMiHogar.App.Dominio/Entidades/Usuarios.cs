@@ -10,6 +10,7 @@ namespace FinanzasMiHogar.App.Dominio
         public int Id {get; set;}
         public string nombreUsuario {get; set;}
         public string correoElectronico {get; set;}
+        public string contraseña {get; set;}
         public Gastos gasto {get; set;}
         public int topeGastos {get; set;} 
     }
