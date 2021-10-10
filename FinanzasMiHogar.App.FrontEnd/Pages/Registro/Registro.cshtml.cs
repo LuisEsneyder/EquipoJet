@@ -22,12 +22,14 @@ namespace FinanzasMiHogar.App.FrontEnd.Pages
         
         public void OnGet(string name, string correo, string contra )
         {
-            var Usuario = new Usuarios{
+                var Usuario = new Usuarios{
                 nombreUsuario = name,
                 correoElectronico = correo,
                 contraseña = contra
                 };
+                 
             repositorioUsuario.AddUsuario(Usuario);
+            
         }
 
     }

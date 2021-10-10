@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sIbTKJRX5jVMK6ypFnyT3UP3X/f4JhI543i0MnH4gpg2psgbkowcX3r5WWPBrHsYnew+IueHzZCLFI/AEMnVZw==",
+  "dgSpecHash": "jBRRLeQGE+Z0ik95PWyPV6405IMQjNxkkJfF0ubPIa1SuLXmgiuTL/NiNNo96WNTrWlbr2jmkK1Kn8igUBV8zQ==",
   "success": true,
   "projectFilePath": "C:\\Finanzasmihogar\\FinanzasMiHogar.App\\FinanzasMiHogar.App.Dominio\\FinanzasMiHogar.App.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Exneider\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

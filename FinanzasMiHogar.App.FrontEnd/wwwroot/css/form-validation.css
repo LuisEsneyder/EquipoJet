@@ -1,0 +1,11 @@
+.container {
+  max-width: 100em;
+  
+}
+.ocultar {
+  display: none;
+}
+
+.mostrar {
+  display: block;
+}

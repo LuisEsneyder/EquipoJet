@@ -7,13 +7,14 @@
             <div class="col-md-12 col-md-9">
                 <h4 class="mb-md-8 " >Registro Finanzas Mi Hogar</h4>
                 <!-- Mensajes de Verificación -->
-                <form class="needs-validation justify-content-center"   novalidate/>
-                  <div class="row g-3">
+                
+                <form class="needs-validation justify-content-center"  onsubmit="verificarContraseña(); return false"  novalidate/>
+                  
                     <div class="col-sm-6">
-                      <label for="firstName" class="form-label">Nombres</label>
-                      <input type="text" class="form-control" id="firstName" name= "name"placeholder="" value="" required>
+                      <label for="Nombre" class="form-label">Nombres</label>
+                      <input type="text" class="form-control" id="firstName" name= "name"placeholder="" value="" required="This field is required.">
                       <div class="invalid-feedback">
-                        Valid first name is required.
+                        Nombre es requerido.
                       </div>
                     </div>
             
@@ -21,24 +22,26 @@
                       <label for="email" class="form-label">Email
                       <input type="email" class="form-control " id="email" name="correo" placeholder="you@example.com" required>
                       <div class="invalid-feedback">
-                        Valid email is required.
+                        Correo es requerido.
                       </div>
                     </div>
                     <div class="col-md-12">
                       <label for="password1" class="form-label">Contraseña
-                      <input type="password" class="form-control " id="password1" name="contra" placeholder="" required>
+                      <input type="password" class="form-control" id="password1" name="contra" placeholder="" required>
                       <div class="invalid-feedback">
-                        Valid Contraseña is required.
+                        Contraseña es requerida.
                       </div>
                     </div>
                     <div class="col-md-12">
                       <label for="password2" class="form-label">Confirmar Contraseña
-                      <input type="password" class="form-control " id="password2" placeholder="" required>
+                      <input type="password" class="form-control" id="password2" placeholder="" required>
                       <div class="invalid-feedback">
-                        Valid Contraseña is required.
+                        Este campo es requerido.
                       </div>
                     </div>
+                   
  
                     <button class="btn btn-lg btn-secondary fw-bold  " type="submit">Registrar</button>
             
         </div>
+       
