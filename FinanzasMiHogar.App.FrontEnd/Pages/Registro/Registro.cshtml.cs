@@ -19,18 +19,34 @@ namespace FinanzasMiHogar.App.FrontEnd.Pages
         {
             this.repositorioUsuario = new RepositorioUsuario (new FinanzasMiHogar.App.Persistencia.AppContext());
         }
+        string name {get;set;}
+        string correo{get;set;}
+         string contra {get;set;}
         
-        public void OnGet(string name, string correo, string contra )
+        public IActionResult OnGet(string name, string correo, string contra )
         {
-                var Usuario = new Usuarios{
+            this.name=name;
+            this.correo=correo;
+            this.contra=contra;
+            Usuario=repositorioUsuario.AddUsuario( name,  correo,  contra);
+            if(Usuario!=null)
+            {
+                return Redirect("../InicioSesion/Inicio_Sesion");
+            }else{
+                return Page();
+            }
+        }
+
+        /*public IActionResult onPost(string name, string correo, string contra)
+        {
+            var Usuario = new Usuarios{
                 nombreUsuario = name,
                 correoElectronico = correo,
                 contraseña = contra
                 };
                  
             repositorioUsuario.AddUsuario(Usuario);
-            
-        }
-
+            return Page();
+        }*/
     }
 }

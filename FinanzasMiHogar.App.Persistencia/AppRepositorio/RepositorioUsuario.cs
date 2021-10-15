@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using FinanzasMiHogar.App.Dominio;
@@ -20,13 +21,25 @@ namespace FinanzasMiHogar.App.Persistencia
         {
             _appContext = appContext;
         }
-        public Usuarios AddUsuario(Usuarios usuarios)
-        {
+        public Usuarios AddUsuario( string nombre,string correo,string contraseña)
+        {   
             try
             {
-                var UsuarioAdicionado = _appContext.usuario.Add(usuarios);
+                if(correo==null & contraseña == null)
+            {
+                 return null;
+            }
+            else{ 
+                var Usuario = new Usuarios{
+                nombreUsuario = nombre,
+                correoElectronico = correo,
+                contraseña = contraseña
+                };
+
+            var UsuarioAdicionado = _appContext.usuario.Add(Usuario);
             _appContext.SaveChanges();
-            return UsuarioAdicionado.Entity; 
+            return UsuarioAdicionado.Entity;
+            } 
             }
             catch (System.Exception)
             {
@@ -34,10 +47,20 @@ namespace FinanzasMiHogar.App.Persistencia
             }
             
         }
+        
         public Usuarios GetUsuarios(int idusuario)
         {
            return _appContext.usuario.FirstOrDefault(U => U.Id == idusuario);
         }
-        
+        public Usuarios ValidacionUsuario(string correo, string contra)
+        {
+            
+            
+                var UsuarioEncontrado=_appContext.usuario.FirstOrDefault(U => U.correoElectronico == correo & U.contraseña==contra);
+               return UsuarioEncontrado;
+            
+           
+        }
+
     }
 }
