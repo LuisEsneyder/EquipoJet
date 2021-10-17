@@ -1,25 +1,26 @@
 ﻿@page
 @model FinanzasMiHogar.App.FrontEnd.Pages.RegistroModel
 @{
+  Layout = "../Shared/_LayoutGasto";
 }
 
-<div class="cover-container d-flex w-1 h-100 p-2 flex-column bg-gradient">
+<div class="cover-container d-flex w-1 h-100 p-2 flex-column">
             <div class="col-md-12 col-md-9">
                 <h4 class="mb-md-8 " >Registro Finanzas Mi Hogar</h4>
                 <!-- Mensajes de Verificación -->
                 
-                <form class="needs-validation justify-content-center"   novalidate>
-                  
+                <form class="needs-validation justify-content-center" novalidate>
+                    <div class="row g-3">
                     <div class="col-sm-6">
                       <label for="Nombre" class="form-label">Nombres</label>
-                      <input type="text" class="form-control" id="firstName" name= "name"placeholder="" value="" required="This field is required.">
+                      <input type="text" class="form-control"  name= "name"placeholder="" value="" required="This field is required.">
                       <div class="invalid-feedback">
                         Nombre es requerido.
                       </div>
                     </div>
-            
-                    <div class="col-md-12">
-                      <label for="email" class="form-label">Email
+                    <br>
+                    <div class="col-sm-6 center">
+                      <label for="email" class="form-label">Email</label>
                       <input type="email" class="form-control " id="email" name="correo" placeholder="you@example.com" required>
                       <div class="invalid-feedback">
                         Correo es requerido.
@@ -40,6 +41,7 @@
                       </div>
                     </div>
                     <button class="btn btn-lg btn-secondary fw-bold  " type="submit">Registrar</button>
+                    </div>
                    </form>  
                 
         </div>

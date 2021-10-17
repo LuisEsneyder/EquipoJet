@@ -6,5 +6,6 @@ namespace FinanzasMiHogar.App.Persistencia
          Usuarios AddUsuario(string nombre,string correo,string contraseña);
          Usuarios GetUsuarios(int idusuario);
        Usuarios ValidacionUsuario(string correo, string contra);
+     
     }
 }

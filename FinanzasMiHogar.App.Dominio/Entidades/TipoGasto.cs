@@ -7,7 +7,7 @@ namespace FinanzasMiHogar.App.Dominio
     {
         suscripcion,
         serviciosPublicos,
-        vivienda,
+        mercado,
         Otros
     }
 }

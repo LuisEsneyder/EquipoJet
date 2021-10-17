@@ -1,11 +1,13 @@
 ﻿@page
 @model FinanzasMiHogar.App.FrontEnd.Pages.Inicio_SesionModel
 @{
+  Layout = "../Shared/_LayoutGasto";
+  
 }
-<div class="cover-container d-flex w-1 h-100 p-2 flex-column bg-gradient">
+<div class="cover-container d-flex w-1 h-100 p-2 flex-column">
             <div class="col-md-12 col-md-9">
-                <h4 class="mb-md-8 " >Registro Finanzas Mi Hogar</h4>
-                <!-- Mensajes de Verificación -->
+
+              
                 <form  class="needs-validation justify-content-center">
                    <div class="col-md-12">
                       <label for="email" class="form-label">Email
@@ -15,17 +17,15 @@
                       </div>
                     </div>
                     <div class="col-md-12">
-                      <label for="password1" class="form-label">Contraseña
+                      <label for="password" class="form-label">Contraseña
                       <input type="password" class="form-control" id="password1" name="contra" placeholder="" required>
                       <div class="invalid-feedback">
                         Contraseña es requerida.
                       </div>
                     </div>
-                   <button class="btn btn-lg btn-secondary fw-bold" type="submit">Iniciar Sesión</button>
-                   <a class="nav-link text-dark" asp-area="" asp-page="/Registro/Registro">Registrarse</a>
+                   <button class="btn btn-lg btn-secondary fw-bold" type="submit" asp-page="/Gastos/Gastos">Iniciar Sesión</button>
+                   <a class="nav-link text-white" asp-area="" asp-page="/Registro/Registro" >Registrarse</a>
                 </form>
         </div>
 
- @section Scripts{ 
-@await  Html.PartialAsync("_ValidationScriptsPartial")
-}
+

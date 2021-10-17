@@ -23,18 +23,21 @@ namespace FinanzasMiHogar.App.FrontEnd.Pages
         string contra{get;set;}
         [BindProperty(SupportsGet =true)]
         string correo {get;set;}
+       
         
         public IActionResult OnGet(string correo, string contra)
-        {
+        {   
+            
             this.contra=contra;
             this.correo=correo;
             Usuario = repositorioUsuario.ValidacionUsuario(correo,  contra);
+            
             if (Usuario==null)
             {
                 return Page();
             }
             else{
-                return RedirectToPage("../Privacy");
+                return RedirectToPage("../Gastos/Gastos");
             }
         }
     }

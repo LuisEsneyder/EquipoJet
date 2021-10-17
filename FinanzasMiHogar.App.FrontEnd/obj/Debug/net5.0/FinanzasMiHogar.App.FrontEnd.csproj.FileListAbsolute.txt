@@ -74,3 +74,6 @@ C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.FrontEnd\obj\Debug\ne
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.FrontEnd\bin\Debug\net5.0\Humanizer.dll
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.FrontEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\InicioSesion\Inicio_Sesion.cshtml.g.cs
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Gastos\Gastos.cshtml.g.cs
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Shared\_LayoutGasto.cshtml.g.cs
+C:\Finanzasmihogar\FinanzasMiHogar.App\FinanzasMiHogar.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Shared\_LayaouForGasto.cshtml.g.cs

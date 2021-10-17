@@ -1,4 +1,4 @@
-
+using System;
 /// <summary> Class <c>Gastos</c>
 /// Modela una clase de Gastos
 /// </summary>
@@ -10,7 +10,7 @@ namespace FinanzasMiHogar.App.Dominio
         public int Id {get; set;}
         public string nombreGastos {get; set;}
         public int montoDinero {get; set;}
-        public string fechaPago {get; set;}
+        public DateTime fechaPago {get; set;}
         public TipoGasto TipoGasto {set; get;}
         public PeriodoGastos periodoGastos {get; set;}
     }

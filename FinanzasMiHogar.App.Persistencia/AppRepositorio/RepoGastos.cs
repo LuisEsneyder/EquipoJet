@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using FinanzasMiHogar.App.Dominio;
@@ -18,13 +19,25 @@ namespace FinanzasMiHogar.App.Persistencia
         {
             _appContext = appContext;
         }
-        public Gastos AddUGastos(Gastos gastos)
+        public Gastos AddUGastos(string NombreGasto, int ValorGasto,DateTime FechaPago)
         {
             try
             {
-                var GastoAdicionado = _appContext.gasto.Add(gastos);
-                _appContext.SaveChanges();
-                return GastoAdicionado.Entity;
+            if(NombreGasto==null & ValorGasto==0 & FechaPago==null)
+            {
+                 return null;
+            }
+            else{ 
+                var gastos = new Gastos{
+                nombreGastos=NombreGasto,
+                montoDinero=ValorGasto,
+                fechaPago=FechaPago
+                };
+
+            var GastoAdicionado = _appContext.gasto.Add(gastos);
+            _appContext.SaveChanges();
+            return GastoAdicionado.Entity;
+            } 
             }
             catch (System.Exception)
             {

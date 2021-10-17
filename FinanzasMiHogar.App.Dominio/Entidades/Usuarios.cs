@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 namespace FinanzasMiHogar.App.Dominio
 {
     /// <summary> Class <c>Usuarios</c>
@@ -15,7 +16,7 @@ namespace FinanzasMiHogar.App.Dominio
         public string correoElectronico {get; set;}
         
         public string contraseña {get; set;}
-        public Gastos gasto {get; set;}
+        public List<Gastos> gasto {get; set;}
         public int topeGastos {get; set;} 
     }
 }

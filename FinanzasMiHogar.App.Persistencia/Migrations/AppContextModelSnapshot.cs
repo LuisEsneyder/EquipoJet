@@ -29,8 +29,11 @@ namespace FinanzasMiHogar.App.Persistencia.Migrations
                     b.Property<int>("TipoGasto")
                         .HasColumnType("int");
 
-                    b.Property<string>("fechaPago")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("UsuariosId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("fechaPago")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("montoDinero")
                         .HasColumnType("int");
@@ -42,6 +45,8 @@ namespace FinanzasMiHogar.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("UsuariosId");
 
                     b.ToTable("gasto");
                 });
@@ -59,9 +64,6 @@ namespace FinanzasMiHogar.App.Persistencia.Migrations
                     b.Property<string>("correoElectronico")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("gastoId")
-                        .HasColumnType("int");
-
                     b.Property<string>("nombreUsuario")
                         .HasColumnType("nvarchar(max)");
 
@@ -70,17 +72,18 @@ namespace FinanzasMiHogar.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("gastoId");
-
                     b.ToTable("usuario");
+                });
+
+            modelBuilder.Entity("FinanzasMiHogar.App.Dominio.Gastos", b =>
+                {
+                    b.HasOne("FinanzasMiHogar.App.Dominio.Usuarios", null)
+                        .WithMany("gasto")
+                        .HasForeignKey("UsuariosId");
                 });
 
             modelBuilder.Entity("FinanzasMiHogar.App.Dominio.Usuarios", b =>
                 {
-                    b.HasOne("FinanzasMiHogar.App.Dominio.Gastos", "gasto")
-                        .WithMany()
-                        .HasForeignKey("gastoId");
-
                     b.Navigation("gasto");
                 });
 #pragma warning restore 612, 618
